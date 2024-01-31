@@ -7,13 +7,11 @@ sudo apt-get install sysbench
 ```
 
 ### Running the Script
-Execute the script with elevated privileges using:
-
-
 ```
-sudo ./raspberry-power-supply-check.sh
+wget https://raw.githubusercontent.com/senhan07/Raspberry-Pi-Power-Supply-Check/main/raspberrypi-power-supply-check.sh
+sudo chmod +x raspberrypi-power-supply-check.sh
+sudo ./raspberrypi-power-supply-check.sh
 ```
-
 
  If you're pi is correctly powered (stable power supply and quality cable), after running the script, you should get something like:
 ```
